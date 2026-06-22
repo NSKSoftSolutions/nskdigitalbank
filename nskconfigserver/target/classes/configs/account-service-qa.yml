@@ -1,0 +1,23 @@
+server:
+  port: 2027
+spring:
+  profiles:
+    activate:
+      on-profile: qa
+
+  application:
+    name: account-service
+  datasource:
+    username: sa
+    password: ""
+    url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+        ddl-auto: update
+
+accounts:
+  accountNumber: 98765
+  accountType: Savings Account - QA
+  branchAddress: Santosh Nagar, Hyderabad

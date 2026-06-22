@@ -1,0 +1,10 @@
+D:\ws\git_local\spring_cloud_v_sb_ws_v2\nskdigibank\nskdigitalbank\loanservices\src\main\java\com\nsk\digitalbank\loansservices\loanservices\controller\LoanController.java
+D:\ws\git_local\spring_cloud_v_sb_ws_v2\nskdigibank\nskdigitalbank\loanservices\src\main\java\com\nsk\digitalbank\loansservices\loanservices\dtos\LoanDTO.java
+D:\ws\git_local\spring_cloud_v_sb_ws_v2\nskdigibank\nskdigitalbank\loanservices\src\main\java\com\nsk\digitalbank\loansservices\loanservices\entites\Loan.java
+D:\ws\git_local\spring_cloud_v_sb_ws_v2\nskdigibank\nskdigitalbank\loanservices\src\main\java\com\nsk\digitalbank\loansservices\loanservices\enums\LoanType.java
+D:\ws\git_local\spring_cloud_v_sb_ws_v2\nskdigibank\nskdigitalbank\loanservices\src\main\java\com\nsk\digitalbank\loansservices\loanservices\LoanservicesApplication.java
+D:\ws\git_local\spring_cloud_v_sb_ws_v2\nskdigibank\nskdigitalbank\loanservices\src\main\java\com\nsk\digitalbank\loansservices\loanservices\mappers\LoanMappers.java
+D:\ws\git_local\spring_cloud_v_sb_ws_v2\nskdigibank\nskdigitalbank\loanservices\src\main\java\com\nsk\digitalbank\loansservices\loanservices\records\LoanProperties.java
+D:\ws\git_local\spring_cloud_v_sb_ws_v2\nskdigibank\nskdigitalbank\loanservices\src\main\java\com\nsk\digitalbank\loansservices\loanservices\repository\LoanRepository.java
+D:\ws\git_local\spring_cloud_v_sb_ws_v2\nskdigibank\nskdigitalbank\loanservices\src\main\java\com\nsk\digitalbank\loansservices\loanservices\services\ILoanServices.java
+D:\ws\git_local\spring_cloud_v_sb_ws_v2\nskdigibank\nskdigitalbank\loanservices\src\main\java\com\nsk\digitalbank\loansservices\loanservices\services\impl\LoanServicesImpl.java

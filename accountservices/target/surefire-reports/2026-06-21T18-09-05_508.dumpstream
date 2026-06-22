@@ -1,0 +1,5 @@
+# Created at 2026-06-21T18:09:06.427
+Boot Manifest-JAR contains absolute paths in classpath 'D:\ws\git_local\spring_cloud_v_sb_ws_v2\nskdigibank\spring_cloud_ws\accountservices\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

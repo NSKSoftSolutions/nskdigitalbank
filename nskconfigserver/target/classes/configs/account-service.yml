@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: account-service
+
+  profiles:
+    active: ${ACTIVE_PROFILE}
+
+  h2:
+    console:
+      enabled: true

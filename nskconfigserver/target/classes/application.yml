@@ -1,0 +1,15 @@
+server:
+  port: 2029
+
+spring:
+  application:
+     name: configserver
+  profiles:
+     active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations:
+             classpath:/configs
+             #file:///C://Users//SajjadAlikhan//configs

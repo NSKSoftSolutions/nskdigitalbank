@@ -1,0 +1,10 @@
+com\nsk\digitalbank\loansservices\loanservices\services\ILoanServices.class
+com\nsk\digitalbank\loansservices\loanservices\repository\LoanRepository.class
+com\nsk\digitalbank\loansservices\loanservices\dtos\LoanDTO.class
+com\nsk\digitalbank\loansservices\loanservices\LoanservicesApplication.class
+com\nsk\digitalbank\loansservices\loanservices\enums\LoanType.class
+com\nsk\digitalbank\loansservices\loanservices\records\LoanProperties.class
+com\nsk\digitalbank\loansservices\loanservices\controller\LoanController.class
+com\nsk\digitalbank\loansservices\loanservices\mappers\LoanMappers.class
+com\nsk\digitalbank\loansservices\loanservices\services\impl\LoanServicesImpl.class
+com\nsk\digitalbank\loansservices\loanservices\entites\Loan.class
