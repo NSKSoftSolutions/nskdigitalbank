@@ -1,0 +1,21 @@
+server:
+  port: 2027
+spring:
+  profiles:
+    activate:
+      on-profile: prod
+  application:
+    name: account-service
+  datasource:
+    username: sa
+    password:
+    url: jdbc:mysql:localhost:3306/accountservices_prod
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+        ddl-auto: update
+accounts:
+  accountNumber: 98765
+  accountType: Savings Account - PROD
+  branchAddress: NallurHalli, Bangalore

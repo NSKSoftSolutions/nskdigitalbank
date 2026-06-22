@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: loanservices
+
+  profiles:
+    active: ${ACTIVE_PROFILE}
+
+  h2:
+    console:
+      enabled: true

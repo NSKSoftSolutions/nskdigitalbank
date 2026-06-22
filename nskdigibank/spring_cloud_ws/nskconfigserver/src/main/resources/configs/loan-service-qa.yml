@@ -1,0 +1,21 @@
+server:
+  port: 2027
+spring:
+  config:
+    activate:
+      on-profile: qa
+  datasource:
+    username: sa
+    password:
+    url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+        ddl-auto: update
+loans:
+  loan-account-number: 12345
+  loan-type: Home Loan - QA
+  loan-amount: 100000
+  tenure-in-months: 120
+  interest-rate: 6.5
