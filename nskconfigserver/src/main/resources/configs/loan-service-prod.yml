@@ -1,0 +1,21 @@
+server:
+    port: 2028
+spring:
+  config:
+    activate:
+      on-profile: prod
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/loanservices_db
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+        ddl-auto: update
+loans:
+  loanAccountNumber: 12345
+  loanType: Home Loan - PROD
+  loanAmount: 100000
+  tenureInMonths: 120
+  interestRate: 6.5
